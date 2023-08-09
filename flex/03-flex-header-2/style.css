@@ -60,3 +60,8 @@ ul {
 .right {
   gap: 16px;
 }
+
+/* there are some mistakes inside this CSS, regarding alignment of all items in one axis.
+Things is my align-items: center code only aligns .left and .right because they are direct childs of header div.
+the children of each .left and .right don't get centered because they aren't direct children of .header.
+ and also margin and paddings of ul element. */
