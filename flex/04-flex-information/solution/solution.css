@@ -41,6 +41,10 @@ body {
   gap: 52px;
 }
 
+img {
+  margin: 0 auto;
+}
+
 .info {
   max-width: 200px;
 }
