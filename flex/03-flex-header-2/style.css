@@ -12,15 +12,6 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 8px;
-}
-
-.left, .right {
-  display: flex;
-  /* gap: 16px; */
 }
 
 .profile-image {
@@ -54,23 +45,24 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.header {
   display: flex;
-  gap: 16px;
-  /* margin: 0; 
-  padding: 0; */
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 8px;
 }
 
-.right {
-  gap: 16px;
-}
-
- /* .left {
+.left-side, .right-side {
+  display: flex;
   align-items: center;
-} */
+  gap: 16px;
+}
 
-/* there are some mistakes inside this CSS, regarding alignment of all items in one axis.
-Things is my align-items: center code only aligns .left and .right because they are direct childs of header div.
-the children of each .left and .right don't get centered because they aren't direct children of .header.
- and also margin and paddings of ul element. */
-
- /* latest styles on ul and .left, .right selectors and also latest .left rule is added to correct my own code.
+ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  gap: 10px;
+}
