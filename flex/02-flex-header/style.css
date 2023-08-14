@@ -1,10 +1,11 @@
+
 .header  {
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-between;
   padding: 10px;
+  align-items: center;
 }
 
 .logo {
@@ -13,7 +14,6 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  margin: auto;
 }
 
 ul {
@@ -21,8 +21,8 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 10px;
-  padding-left: 0px;
-  flex: auto;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
@@ -31,12 +31,4 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-}
-
-.left-links {
-  margin-right: auto;
-}
-
-.right-links {
-  margin-left: auto;
 }
