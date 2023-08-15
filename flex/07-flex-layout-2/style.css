@@ -29,13 +29,13 @@ body {
 }
 
 body {
-  display: flex; /* why with no flex it goes wierd */
+  display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100vh;
+  /* justify-content: space-between; */
 }
 
 .content {
+  flex: 1;
   display: flex;
-  /* align-items: flex-start; */
+  /* align-items: stretch; */
 }
