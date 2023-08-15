@@ -27,3 +27,15 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+body {
+  display: flex; /* why with no flex it goes wierd */
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  /* align-items: flex-start; */
+}
